@@ -3,8 +3,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Class extensions for UIImage which throw when an image isnt found"
 
-  s.description      = <<-DESC
-
   s.homepage         = "www.LondonSwift.com"
   s.license          = 'MIT'
   s.author           = { "LondonSwift" => "hello@londonswift.com" }
