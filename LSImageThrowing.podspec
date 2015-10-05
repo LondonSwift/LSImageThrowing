@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 
-  s.homepage         = "https://github.com/LondonSwift/LSImageThrowing"
+  s.homepage         = "www.LondonSwift.com"
   s.license          = 'MIT'
   s.author           = { "LondonSwift" => "hello@londonswift.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LSImageThrowing.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:LondonSwift/LSImageThrowing.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
