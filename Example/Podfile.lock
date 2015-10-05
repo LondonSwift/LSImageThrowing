@@ -1,0 +1,14 @@
+PODS:
+  - LSImageThrowing (0.1.0)
+
+DEPENDENCIES:
+  - LSImageThrowing (from `../`)
+
+EXTERNAL SOURCES:
+  LSImageThrowing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LSImageThrowing: 8ed2b6da72271cc686c7d1d6b3eab0649df48c22
+
+COCOAPODS: 0.38.2
