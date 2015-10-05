@@ -8,12 +8,12 @@
 
 import UIKit
 
-enum ImageError : ErrorType {
+public enum ImageError : ErrorType {
     case NotFound
 }
 
-extension UIImage {
-    convenience init ?(namedOrThrow:String) throws {
+public extension UIImage {
+    public convenience init ?(namedOrThrow:String) throws {
         // The easiest way of checking whether UIImage(named:) will load an image
         // is to just try, its quite a complex search that the system does when
         // looking for the image, which I didnt want to emulate.

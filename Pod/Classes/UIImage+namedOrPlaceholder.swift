@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UIImage {
-    convenience init ?(named:String, placeholderOrThrow:String) {
+public extension UIImage {
+    public convenience init ?(named:String, placeholderOrThrow:String) {
         
         var path: String
         
