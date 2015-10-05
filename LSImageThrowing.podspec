@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LSImageThrowing"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Class extensions for UIImage which throw when an image isnt found"
 
   s.homepage         = "http://www.LondonSwift.com"
