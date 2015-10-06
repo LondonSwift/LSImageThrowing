@@ -8,8 +8,12 @@
 
 import UIKit
 
+public enum PlaceholderImageError : ErrorType {
+    case NotFound
+}
+
 public extension UIImage {
-    public convenience init ?(named:String, placeholderOrThrow:String) {
+    public convenience init ?(named:String, placeholderOrThrow:String) throws {
         
         var path: String
         
@@ -23,6 +27,11 @@ public extension UIImage {
         
         // if we cant find the images pointed to by named and
         // placeholderOrThrow then we still want to throw
-        try! self.init(namedOrThrow:path)
+        do {
+            try self.init(namedOrThrow:path)
+        }
+        catch {
+            throw PlaceholderImageError.NotFound
+        }
     }
 }
